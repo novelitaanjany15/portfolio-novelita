@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* NAVBAR */
+/* NAVBAR UMUM */
 nav {
   background: #1e40af;
   padding: 12px 20px;
@@ -23,11 +23,14 @@ nav {
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
+/* Menu desktop */
 nav ul {
   display: flex;
   justify-content: center;
   gap: 25px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
@@ -40,6 +43,31 @@ nav ul li a {
 nav ul li a:hover {
   color: #38bdf8;
 }
+
+/* NAVBAR RESPONSIF UNTUK HP & TABLET */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    display: none; /* Disembunyikan default, nanti muncul saat toggle */
+  }
+
+  nav ul.active {
+    display: flex; /* Menampilkan menu saat toggle di klik */
+  }
+
+  /* Tambahkan tombol hamburger */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+  }
+}
+
 
 /* HERO */
 .hero-section {
