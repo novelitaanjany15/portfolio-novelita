@@ -1,0 +1,25 @@
+{
+  "name": "portofolio-novelita",
+  "version": "1.0.0",
+  "description": "Portofolio Novelita Anjany – Mahasiswa D4 Manajemen Informatika UNESA. Berisi proyek, pengalaman, dan hasil belajar.",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server --open=index.html",
+    "dev": "live-server --open=index.html --watch=.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "mobile-developer",
+    "uiux",
+    "novelita",
+    "manajemen-informatika",
+    "unesa"
+  ],
+  "author": "Novelita Anjany",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

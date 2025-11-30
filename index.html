@@ -1,0 +1,576 @@
+<!-- Gabungan lengkap dua versi portofolio Novelita menjadi satu file HTML terstruktur -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Portfolio - Novelita Fatma Anjany</title>
+  <meta name="description" content="Portfolio Novelita Fatma Anjany - Mahasiswa D4 Manajemen Informatika Universitas Negeri Surabaya, fokus Web Development · Mobile Development · UI/UX Design · System Analyst · Software Engineering." />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR FINAL -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Portofolio Novelita</a>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#beranda">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#tentang">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#biodata">Biodata</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#proyek">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#pengalaman">Pengalaman</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#keterampilan">Keterampilan</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER / HERO -->
+   
+<header id="beranda" class="hero-section text-center">
+  <div class="container">
+
+    <!-- SALAM & QUOTES DI PALING ATAS -->
+    <h2 id="salam" class="text-dark fw-semibold mb-2"></h2>
+    <p id="quotes" class="fst-italic text-success mb-4"></p>
+
+    <!-- FOTO PROFIL -->
+    <div class="profile-container mx-auto">
+      <img src="assets/foto.png" class="profile-img" alt="Foto Profil Novelita Fatma Anjany" />
+    </div>
+
+    <!-- NAMA -->
+    <h1 class="mt-4 fw-bold">NOVELITA FATMA ANJANY</h1>
+
+    <!-- SUBTITLE -->
+    <p class="hero-subtitle">
+      D4 Manajemen Informatika - Universitas Negeri Surabaya
+    </p>
+
+    <p class="hero-subtitle">
+      Web Development · Mobile Development · UI/UX Design · System Analyst · Software Engineering
+    </p>
+
+    <!-- DOWNLOAD CV -->
+    <a class="btn btn-primary mt-3 px-4 py-2" href="assets/CV_Novelita_Anjany.pdf" download>
+      Download CV (PDF)
+    </a>
+
+  </div>
+</header>
+
+
+  <!-- TENTANG SAYA -->
+  <section id="tentang" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-3">✨ Tentang Saya</h2>
+      <p>Saya merupakan mahasiswa Program Studi D4 Manajemen Informatika di Universitas Negeri Surabaya yang berfokus pada Web Development, Mobile Application Development, dan UI/UX Design. Memiliki ketertarikan kuat dalam menciptakan solusi digital yang modern, responsif, dan berorientasi pada pengalaman pengguna.</p>
+      <P>Dalam proses pengembangan, saya terbiasa menggunakan HTML, CSS, JavaScript, Bootstrap, Flutter (Dart), Laravel, dan Figma. Memahami pemahaman analisis sistem, struktur data, user flow, wireframe, dan prototyping sebagai dasar dalam merancang aplikasi yang fungsional dan mudah digunakan.</P>
+      <p>Dengan perpaduan kemampuan teknis dan soft skills tersebut, saya siap memberikan kontribusi nyata dalam pengembangan website, aplikasi mobile, maupun desain UI/UX, serta terbuka untuk kesempatan magang, proyek kolaboratif, dan peluang profesional lainnya.</p>
+      <p>Saya berkomitmen untuk terus belajar dan menghasilkan produk digital yang inovatif, fungsional, dan berdampak positif bagi pengguna.</p>
+    </div>
+  </section>
+
+  <!-- BIODATA -->
+  <section id="biodata" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">📌 Ringkasan Biodata</h2>
+      <div class="row g-3">
+        <div class="col-md-6"><b>Nama:</b> Novelita Fatma Anjany</div>
+        <div class="col-md-6"><b>TTL:</b> Jombang, 1 Juli 2005</div>
+        <div class="col-md-6"><b>Alamat Domisili:</b> Surabaya, Jawa Timur</div>
+        <div class="col-md-6"><b>Email:</b> novelitaanjany15@gmail.com</div>
+        <div class="col-md-6"><b>Telepon:</b> 082245756389</div>
+        <div class="col-md-6"><b>Bidang Keahlian:</b> Web & Mobile App Development, UI/UX Design</div>
+      </div>
+    </div>
+  </section>
+
+<!-- PROJECTS -->
+<section id="proyek" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 fw-bold">🧩 Proyek Portofolio</h2>
+
+    <!-- APLIKASI KUIS -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/quiz_app.png" class="img-fluid rounded-start" alt="Screenshot aplikasi Quiz App" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Aplikasi Kuis Android</h5>
+          <p><b>Teknologi:</b> Flutter · Dart</p>
+          <p>Aplikasi kuis interaktif untuk mahasiswa D4 MI dengan fitur timer, skor otomatis, feedback jawaban, dan UI responsif.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEARNIFY -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/learnify.png" class="img-fluid rounded-start" alt="Tampilan aplikasi Learnify" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Learnify – Aplikasi Edukasi Anak</h5>
+          <p><b>Teknologi:</b> Flutter · Figma</p>
+          <p>Aplikasi edukasi anak dengan CRUD materi, kuis, manajemen akun, serta UI ramah anak. Termasuk user flow & prototype Figma.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUDGETIN -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/budgetin.png" class="img-fluid rounded-start" alt="Budgetin App UI" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Budgetin – Aplikasi Pengeluaran</h5>
+          <p><b>Teknologi:</b> Flutter · Provider State Management</p>
+          <p>Aplikasi pencatat keuangan mahasiswa dengan tema hijau modern. Mendukung input–proses–output transaksi, tracking pengeluaran, dan UI responsif.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESTINARA -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/destinara.png" class="img-fluid rounded-start" alt="Destinara UI" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Destinara – Sistem Rekomendasi Wisata</h5>
+          <p><b>Teknologi:</b> Laravel · MySQL · JWT · REST API · Tailwind CSS · Flutter · Figma</p>
+          <p>Sistem rekomendasi wisata dengan autentikasi JWT, CRUD destinasi, ulasan, integrasi API, dan responsif Tailwind. Termasuk UI/UX Figma lengkap.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SISTEM LAYANAN MAHASISWA -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/slm.png" class="img-fluid rounded-start" alt="SLM System" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Sistem Layanan Mahasiswa (SLM)</h5>
+          <p><b>Teknologi:</b> Laravel · MySQL · Blade Template</p>
+          <p>Sistem pengajuan surat mahasiswa (magang, sempro, SK aktif). Menggunakan validasi, routing, CRUD lengkap, dan tampilan Blade.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILM MANAGEMENT SYSTEM -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/filmms.png" class="img-fluid rounded-start" alt="Film Management System" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">Film Management System</h5>
+          <p><b>Teknologi:</b> Laravel · MySQL</p>
+          <p>Sistem CRUD film dengan migrasi, seeder, validasi form, dan integrasi database. Fitur tambah, edit, hapus, hingga pencarian.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- REST API MAHASISWA -->
+    <div class="card mb-4 shadow-sm">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/screenshots/api_mahasiswa.png" class="img-fluid rounded-start" alt="API Mahasiswa" />
+        </div>
+        <div class="col-md-8 p-4">
+          <h5 class="fw-bold">REST API Mahasiswa</h5>
+          <p><b>Teknologi:</b> Laravel · Postman</p>
+          <p>API CRUD mahasiswa lengkap: validasi, filter by name, find by NIM, dan pengujian endpoint melalui Postman.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- PENGALAMAN -->
+<section id="pengalaman" class="card fade-in">
+  <h2>💼 Pengalaman Proyek Perkuliahan</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Mata Kuliah</th>
+        <th>Proyek / Tugas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Algoritma dan Pemrograman</td>
+        <td>
+          <ul>
+            <li>Program kalkulator sederhana (C).</li>
+            <li>Program konversi suhu (C).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Struktur Data</td>
+        <td>
+          <ul>
+            <li>Implementasi Stack untuk simulasi undo/redo.</li>
+            <li>Implementasi Queue untuk simulasi antrian.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Jaringan Komputer</td>
+        <td>
+          <ul>
+            <li>Perancangan topologi jaringan (Cisco Packet Tracer).</li>
+            <li>Konfigurasi IP Address & routing.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Basis Data</td>
+        <td>
+          <ul>
+            <li>Query SQL dasar (SELECT, JOIN, GROUP BY).</li>
+            <li>Migrasi & seeder tabel mahasiswa di Laravel.</li>
+            <li>CRUD data films dengan Blade template.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Basis Data Lanjut</td>
+        <td>
+          <ul>
+            <li>Validasi insert API (Postman).</li>
+            <li>Integrasi API Laravel dengan database.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Rekayasa Perangkat Lunak</td>
+        <td>
+          <ul>
+            <li>Studi kasus UX (Shopee, Grab, BSI, Bukalapak).</li>
+            <li>Flowchart aplikasi Budgetin.</li>
+            <li>Laporan SRS Sistem Layanan Mahasiswa.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Analisis & Desain Perangkat Lunak</td>
+        <td>
+          <ul>
+            <li>Studi kasus GrabBike & Bukalapak.</li>
+            <li>Penerapan metode Double Diamond & Design Thinking.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Kecerdasan Buatan</td>
+        <td>
+          <ul>
+            <li>Project Sistem Informasi Perpustakaan Desa berbasis AI.</li>
+            <li>Laporan implementasi AI di proyek perkuliahan.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pemrograman Berorientasi Objek</td>
+        <td>
+          <ul>
+            <li>CRUD data mahasiswa dengan PDO & MySQLi (OOP).</li>
+            <li>Implementasi class, objek, inheritance, encapsulation.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pemrograman Web</td>
+        <td>
+          <ul>
+            <li>Website pribadi (HTML + CSS).</li>
+            <li>CRUD sederhana PHP.</li>
+            <li>Project Laravel (GamesController, Blade template).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pemrograman Web Lanjut</td>
+        <td>
+          <ul>
+            <li>Sistem login & register (CodeIgniter 4).</li>
+            <li>Starter Kit Laravel (auth lengkap, AdminLTE/SB Admin, role user).</li>
+            <li>CRUD berita dengan approval (Admin/Editor/Wartawan).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pemrograman API</td>
+        <td>
+          <ul>
+            <li>REST API Mahasiswa (CRUD).</li>
+            <li>Dokumentasi API dengan Swagger (OpenAPI).</li>
+            <li>Authorization API (Basic Auth, API Key, JWT).</li>
+            <li>Testing API dengan Postman.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pemrograman Mobile</td>
+        <td>
+          <ul>
+            <li><b>Budgetin</b>: aplikasi pencatat pengeluaran (Flutter, tema hijau, provider, splash screen, akun).</li>
+            <li><b>Learnify</b>: aplikasi edukasi anak (CRUD, quiz, daftar akun, halaman materi, Figma UI).</li>
+            <li><b>QuizApp</b>: aplikasi kuis interaktif untuk mahasiswa baru.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Desain UI/UX</td>
+        <td>
+          <ul>
+            <li>Portfolio website dengan CSS card & gradient.</li>
+            <li>Prototyping Learnify di Figma.</li>
+            <li>Green theme untuk Budgetin.</li>
+            <li>Logo & tagline aplikasi.</li>
+            <li>Studi kasus GrabBike & Bukalapak.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Pengujian Perangkat Lunak</td>
+        <td>
+          <ul>
+            <li>Uji Sistem Perpustakaan Desa berbasis AI.</li>
+            <li>Starter Kit Laravel/CI (role user + CRUD berita).</li>
+            <li>Debugging error Laravel (routing, SQL, Swagger).</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Sistem Informasi Manajemen</td>
+        <td>
+          <ul>
+            <li>Project Sistem Layanan Mahasiswa (surat magang, sempro, aktif kuliah).</li>
+            <li>Metodologi Waterfall dengan UI/UX design.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Statistika Informatika</td>
+        <td>
+          <ul>
+            <li>Analisis regresi & korelasi.</li>
+            <li>Uji persyaratan analisis.</li>
+            <li>Statistika non-parametrik menggunakan Python.</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="mt-3">Catatan: Proyek di atas merupakan bagian dari tugas perkuliahan dan bertujuan untuk mengasah kemampuan teknis serta pemahaman konsep dalam bidang informatika.</p>
+</section>
+
+<!-- KETERAMPILAN -->
+<section id="keterampilan" class="card fade-in">
+  <h2>🛠️ Keterampilan</h2>
+
+  <!-- ===== UI/UX DESIGN ===== -->
+  <div class="skill">
+    <span><strong>UI/UX Design</strong> — Figma, Wireframing, Prototyping, User Flow, Layouting, Design Thinking, Hi-Fi Prototype</span>
+    <div class="progress"><div class="progress-bar w90">90%</div></div>
+  </div>
+
+  <!-- ===== FRONTEND DEVELOPMENT ===== -->
+  <div class="skill">
+    <span><strong>HTML5 & CSS3</strong> — Responsive Layout, Flexbox, Grid, Semantic HTML, Animation</span>
+    <div class="progress"><div class="progress-bar w85">85%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>JavaScript (ES6+)</strong> — DOM, Fetch API, Async Programming, Frontend Interactivity</span>
+    <div class="progress"><div class="progress-bar w75">75%</div></div>
+  </div>
+
+  <!-- ===== BACKEND DEVELOPMENT ===== -->
+  <div class="skill">
+    <span><strong>PHP (Laravel)</strong> — MVC, Routing, Migration, Middleware, REST API, JWT Auth, Seeder & Factory, Blade Template</span>
+    <div class="progress"><div class="progress-bar w80">80%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>REST API Development</strong> — CRUD API, Authentication, Authorization, Postman Testing</span>
+    <div class="progress"><div class="progress-bar w78">78%</div></div>
+  </div>
+
+  <!-- ===== MOBILE DEVELOPMENT ===== -->
+  <div class="skill">
+    <span><strong>Flutter</strong> — UI Components, State Management, Android App, Navigation, Responsive Design</span>
+    <div class="progress"><div class="progress-bar w70">70%</div></div>
+  </div>
+
+  <!-- ===== DATABASE ===== -->
+  <div class="skill">
+    <span><strong>Database Management</strong> — MySQL, SQL Server, ERD, Query Optimization, Relational Modeling</span>
+    <div class="progress"><div class="progress-bar w82">82%</div></div>
+  </div>
+
+  <!-- ===== SOFTWARE ENGINEERING ===== -->
+  <div class="skill">
+    <span><strong>Software Engineering</strong> — UML, RPL, Waterfall & Agile, Test Case, Blackbox Testing, SRS Documentation</span>
+    <div class="progress"><div class="progress-bar w80">80%</div></div>
+  </div>
+
+  <!-- ===== PROJECT & TOOLS ===== -->
+  <div class="skill">
+    <span><strong>Version Control & Tools</strong> — Git, GitHub, Postman, VS Code, Laragon</span>
+    <div class="progress"><div class="progress-bar w85">85%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>Project Management</strong> — Agile, Scrum, Time Planning, Requirement Analysis</span>
+    <div class="progress"><div class="progress-bar w80">80%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>Project Tracking Tools</strong> — Notion, Trello, Jira, Figma Collaboration</span>
+    <div class="progress"><div class="progress-bar w85">85%</div></div>
+  </div>
+
+  <!-- ===== MULTIMEDIA ===== -->
+  <div class="skill">
+    <span><strong>Multimedia Editing</strong> — Basic Photo & Video Editing (hasil dari pengalaman kelas Multimedia)</span>
+    <div class="progress"><div class="progress-bar w88">88%</div></div>
+  </div>
+
+  <!-- ===== SOFT SKILLS ===== -->
+  <div class="skill">
+    <span><strong>Komunikasi & Teamwork</strong> — Kolaborasi dengan tim, diskusi teknis, presentasi</span>
+    <div class="progress"><div class="progress-bar w95">95%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>Kreativitas & Problem Solving</strong> — UI/UX creativity, debugging, solusi perangkat lunak</span>
+    <div class="progress"><div class="progress-bar w90">90%</div></div>
+  </div>
+
+  <div class="skill">
+    <span><strong>Manajemen Waktu</strong> — Pengelolaan tugas kuliah, proyek, dan report</span>
+    <div class="progress"><div class="progress-bar w92">92%</div></div>
+  </div>
+
+</section>
+
+
+   <!-- ========== SECTION KONTAK ========== -->
+<section id="kontak" class="card fade-in">
+  <h2>📩 Hubungi Saya</h2>
+  <p class="kontak-sub">Silakan kirim pesan jika ingin bekerja sama atau bertanya sesuatu.</p>
+
+  <form id="formKontak" onsubmit="event.preventDefault(); kirimPesan();" class="kontak-form">
+    
+    <div class="form-group">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" placeholder="Masukkan nama Anda">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="contoh@email.com">
+    </div>
+
+    <div class="form-group">
+      <label for="pesan">Pesan</label>
+      <textarea id="pesan" rows="5" placeholder="Tulis pesan Anda di sini..."></textarea>
+    </div>
+
+    <button type="submit" class="btn-kirim">Kirim Pesan</button>
+
+  </form>
+</section>
+
+<!-- SOSIAL MEDIA -->
+<section class="social-section">
+  <div class="container text-center">
+
+    <h2 class="social-title">🌐 Ikuti Saya</h2>
+
+    <div class="social-links">
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/novel_bukan_komik"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Kunjungi Instagram Novelita">
+         <i class="fab fa-instagram"></i> Instagram
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/novelitaanjany15"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Kunjungi GitHub Novelita">
+         <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:novelitaanjany15@gmail.com"
+         aria-label="Kirim email ke Novelita">
+         <i class="fas fa-envelope"></i> Email
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/6282245756389"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Hubungi Novelita via WhatsApp">
+         <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- USER API -->
+  <section class="py-5">
+    <div class="container">
+      <h2>📡 Data User (Async/Await)</h2>
+      <p id="userApi">Mengambil data...</p>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 bg-dark text-white">© 2025 Novelita Fatma Anjany — Dibuat dengan ❤️ menggunakan HTML & CSS</footer>
+
+  <script>
+  // ===== SALAM =====
+  function salamWaktu() {
+    let jam = new Date().getHours();
+    let s = jam < 12 ? "Selamat Pagi" : jam < 16 ? "Selamat Siang" : jam < 19 ? "Selamat Sore" : "Selamat Malam";
+    document.getElementById("salam").innerText = s + ", Selamat datang di portofolio NOVELITA!";
+  }
+  salamWaktu();
+
+  // ===== QUOTES =====
+  let quotes = ["Code today, create tomorrow.", "Setiap bug adalah peluang untuk belajar hal baru.", "Teknologi berubah cepat—teruslah berkembang.", "Problem solving adalah seni dalam Informatika.", "Belajar algoritma berarti belajar cara berpikir.", "Desain yang baik adalah ketika pengguna tidak perlu berpikir lagi.", "Error bukan akhir, tapi awal untuk memperbaiki.", "Informatika bukan hanya tentang coding, tapi tentang solusi."];
+  function tampilkanQuotes(cb){ setInterval(()=>{ cb(quotes[Math.floor(Math.random()*quotes.length)]); },3000);} 
+  tampilkanQuotes(q=>{document.getElementById("quotes").innerText=q});
+
+  // ===== VALIDASI FORM =====
+  function kirimPesan(){ let n=nama.value.trim(), e=email.value.trim(), p=pesan.value.trim(); if(!n||!e||!p) return alert("Semua field wajib diisi!"); if(!e.includes("@")) return alert("Email tidak valid!"); alert("Terima kasih, "+n+". Pesan Anda berhasil dikirim."); formKontak.reset(); }
+
+  // ===== USER API =====
+  async function getUser(){ try{ let r=await fetch("https://novelitaanjany.typicode.com/users/1"); let u=await r.json(); userApi.innerText = `Nama: ${u.name} | Email: ${u.email}`; } catch{ userApi.innerText = "Nama: Novelita Fatma Anjany | Email: novelitaanjany15@gmail.com";} }
+  getUser();
+  </script>
+
+</body>
+</html>
