@@ -183,7 +183,7 @@ tbody tr:hover {
   transition: 0.3s;
 }
 
-/* SKILLS */
+/* SKILLLS */
 .skill {
   margin-bottom: 16px;
 }
@@ -209,7 +209,7 @@ tbody tr:hover {
   transition: width 1s ease;
 }
 
-/* PERSENTASE BAR */
+/* BAR WIDTHS */
 .w70 { width: 70%; }
 .w75 { width: 75%; }
 .w78 { width: 78%; }
@@ -227,7 +227,8 @@ form {
   gap: 12px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #cbd5e1;
@@ -250,6 +251,43 @@ input, textarea {
 .btn-kirim:hover {
   background: #102f98;
   transform: translateY(-3px);
+}
+
+/* Notifikasi Profesional */
+.notif {
+  width: 100%;
+  max-width: 450px;
+  margin: 15px auto;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  animation: fadeSlide 0.4s ease;
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+}
+
+.notif-success {
+  background: #e7f9ee;
+  border-left: 5px solid #2ecc71;
+  color: #2f8f4e;
+}
+
+.notif .icon {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* SOSIAL MEDIA */
@@ -299,7 +337,6 @@ input, textarea {
   transform: scale(1.07);
 }
 
-/* ICON */
 .social-links i {
   font-size: 18px;
 }
@@ -308,16 +345,14 @@ input, textarea {
 @media (max-width: 768px) {
   .social-title { font-size: 24px; }
   .social-links a { width: 100%; justify-content: center; }
+  .hero-section h1 { font-size: 2rem; }
+  #salam { font-size: 26px; }
+  .profile-container { width: 140px; height: 140px; }
 }
 
-
-/* FOOTER */
-footer {
-  margin-top: 40px;
-  background: #1e40af;
-  color: white;
-  text-align: center;
-  padding: 18px;
+@media (max-width: 480px) {
+  nav ul { flex-direction: column; gap: 15px; }
+  .card { width: 90%; }
 }
 
 /* ANIMASI */
@@ -329,16 +364,4 @@ footer {
 @keyframes slideUp {
   from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .hero-section h1 { font-size: 2rem; }
-  #salam { font-size: 26px; }
-  .profile-container { width: 140px; height: 140px; }
-}
-
-@media (max-width: 480px) {
-  nav ul { flex-direction: column; gap: 15px; }
-  .card { width: 90%; }
 }
